@@ -40,7 +40,7 @@ public class Początek {
         boolean flaga = true;
 
 
-            //while (taqblica.length <= 3){
+            while (taqblica.length <= 3){
 
             try {
                 while (licznik <= 2) {
@@ -59,7 +59,7 @@ public class Początek {
                 String coDalej = scanner.nextLine();
                 if (coDalej.equals("koniec".toLowerCase().trim())) {
                     System.out.println("koniec programu");
-                   // break;
+                   break;
                 } else if (coDalej.equals("od nowa".toLowerCase().trim())) {
 
 
@@ -68,7 +68,7 @@ public class Początek {
                 }
 
             }
-        //}
+        }
 
 
         try {
